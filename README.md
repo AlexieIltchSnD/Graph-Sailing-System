@@ -90,23 +90,23 @@ g++ -std=c++11 -Wall -Wextra -o cargoBL *.cpp
 
 
 ## Example Interactive Session
-[input] load HapagLloyd_3.dat
-[output] Update was successful.
+- [input] load HapagLloyd_3.dat
+- [output] Update was successful.
 
-[input] Reykjavik,outbound
-[output] Newark,10504
+- [input] Reykjavik,outbound
+- [output] Newark,10504
 
-[input] Boston,outbound
-[output] Boston: no outbound ports
+- [input] Boston,outbound
+- [output] Boston: no outbound ports
 
-[input] Tuen Mun,balance,05/01 10:01
-[output] -149
+- [input] Tuen Mun,balance,05/01 10:01
+- [output] -149
 
-[input] print
-[output] Network graphs written to output file
+- [input] print
+- [output] Network graphs written to output file
 
-[input] exit
-[output] Exiting simulator.
+- [input] exit
+- [output] Exiting simulator.
 
 ---
 
