@@ -86,7 +86,8 @@ g++ -std=c++11 -Wall -Wextra -o cargoBL *.cpp
 - Default output file: output.dat if -o is not specified.
 
 - Errors in initial loading terminate the program; errors during interactive updates are reported but ignored for that file.
-
+```
+---
 ## Example Interactive Session
 [input] load HapagLloyd_3.dat
 [output] Update was successful.
@@ -105,7 +106,7 @@ g++ -std=c++11 -Wall -Wextra -o cargoBL *.cpp
 
 [input] exit
 [output] Exiting simulator.
-```
+
 ---
 
 ## Notes
