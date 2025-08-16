@@ -52,12 +52,12 @@ Invalid commands or formats trigger clear error messages:
 - Times are in `dd/mm HH:mm` format; container quantities are positive integers.  
 - If an edge already exists in the graph, container and time weights are updated using averages.
 
-**Example Input File:**
-Tuen Mun,05/01 10:01
-Singapore,11/01 16:18,67,12/01 09:15
-Mumbai,19/01 07:45,23,19/01 20:30
-Suez,24/01 11:15,15,25/01 10:00
-Ashdod,26/01 07:00,44,29/01 08:50
+## Example Input File:
+- Tuen Mun,05/01 10:01
+- Singapore,11/01 16:18,67,12/01 09:15
+- Mumbai,19/01 07:45,23,19/01 20:30
+- Suez,24/01 11:15,15,25/01 10:00
+- Ashdod,26/01 07:00,44,29/01 08:50
 ---
 
 ## Project Structure
@@ -105,21 +105,17 @@ g++ -std=c++11 -Wall -Wextra -o cargoBL *.cpp
 
 [input] exit
 [output] Exiting simulator.
-
+```
 ---
 
 ## Notes
+- Exception Handling: All invalid file data, negative travel times, or malformed lines trigger exceptions.
+- Graphs: Two interconnected graphs are maintained for containers and travel times.
+- Efficiency: Move semantics and smart pointers are used where possible for performance.
+- Port Names: Maximum 16 characters, alphabetic and spaces.
+- Compilation: Must compile without warnings on the college-provided g++ compiler.
 
-Exception Handling: All invalid file data, negative travel times, or malformed lines trigger exceptions.
-
-Graphs: Two interconnected graphs are maintained for containers and travel times.
-
-Efficiency: Move semantics and smart pointers are used where possible for performance.
-
-Port Names: Maximum 16 characters, alphabetic and spaces.
-
-Compilation: Must compile without warnings on the college-provided g++ compiler.
+---
 
 ## Author
-
 Student: Alexie Ilchuk
