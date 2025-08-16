@@ -80,14 +80,15 @@ C++11 (or later) is required; smart pointers and move semantics are used for eff
 ```bash
 g++ -std=c++11 -Wall -Wextra -o cargoBL *.cpp
 ./cargoBL -i <infile1> [ <infile2> <infile3> ... ] [-o <outfile>]
+```
 
 - At least one input file is required.
 
 - Default output file: output.dat if -o is not specified.
 
 - Errors in initial loading terminate the program; errors during interactive updates are reported but ignored for that file.
-```
----
+
+
 ## Example Interactive Session
 [input] load HapagLloyd_3.dat
 [output] Update was successful.
